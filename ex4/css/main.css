@@ -1,0 +1,19 @@
+body {
+	background-color: peachpuff;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 5vw;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:black;
+	text-align: center;
+	margin-top: 35vh;
+}
+
+@media screen and (min-width: 768px) {
+	/*styles for screen sizes 768px and above*/
+	body {
+		background-color: skyblue;
+	}
+}
