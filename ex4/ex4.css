@@ -12,12 +12,5 @@ h1 {
  margin-top: 35vh;
 }
 
-@media screen and (max-width: 1024px) {
- /*styles for screen sizes 1024px and above*/
- body {
-  background-color: skyblue;
- }
-
-
 
 
