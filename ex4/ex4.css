@@ -18,7 +18,7 @@ h1 {
   background-color: palevioletred;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
  /*styles for screen sizes 1024px and above*/
  body {
   background-color: skyblue;
