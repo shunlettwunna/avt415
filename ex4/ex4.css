@@ -1,3 +1,7 @@
+body {
+    background-color: palevioletred;
+}
+
 h1 {
  font-family: sans-serif;
  font-size: 5vw;
@@ -14,15 +18,10 @@ h1 {
   background-color: palevioletred;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 768px) {
  /*styles for screen sizes 1024px and above*/
  body {
-  background-color: skyblue;
+  background-color: mediumpurple;
  }
 
-h1 {
- font-size: 100px;
- color: black;
- margin-top: 40vh;
-}
 
