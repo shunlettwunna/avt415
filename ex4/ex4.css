@@ -1,37 +1,49 @@
 body {
-	background-color: palevioletred;
-	font-family: Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	margin: 0;
-	font-size: 2em;
-	position: relative;
+    background-image: url('balloonbg.png');
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F0E1E3;
 }
 
-.text {
-	position: relative;
-	color: transparent; /* Hide original text*/
+.card {
+   
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #412965;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
 }
 
-
-/* Default text */
-.text::before {
-	content: "happy";
-	color: black;
+h1 {
+    font-family: futura;
+    color: #FFD400;
+    font-size: 3.3em;
+    margin: 0;
 }
 
-/* Change to 'birthday' on larger screens */
-@media screen and (min-width: 768px) {
-	.text::before {
-		content: "birthday";
-	}
+p {
+    font-family: Lato;
+    color: white; 
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px;
 }
 
+@media (min-width: 768px) {
+ body {
+  background-color: #E1E2EF;
+}
 
+.card {
+	background-color: #02244A;
+ }
 
-
-
-
-
+@media (max-width: 1500px) {
+ body {
+  background-color: #E1E2EF;
+}
