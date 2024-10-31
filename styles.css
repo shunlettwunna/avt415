@@ -1,15 +1,53 @@
 body {
-  background-color: #feffe5;
+  background-color: #E6DADA;
+  margin-left: 20px;
 }
 
 h1 {
-  color: black;
-  font-family: verdana;
-  font-size: 300%;
+  color: #3E051C;
+  font-family: Andalé Mono;
+  font-size: 400%;
 }
 
 h2 {
-  color: #7c89a0;
-  font-family: verdana;
+  color: #601834;
+  font-family: optima;
+  font-weight: bold;
+  font-size: 250%;
+
+a:link {
+  color: #601834;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #918A8A;
+  text-decoration: underline;
+}
+
+}
+
+
+h3 {
+  color: #804056;
+  font-family: optima;
   font-size: 150%;
+
+}
+
+h4 {
+  color: #905469;
+  font-family: optima;
+  font-size: 100%;
+
+a:link {
+  color: #905469;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #918A8A;
+  text-decoration: underline;
+}
+
 }
