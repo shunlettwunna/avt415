@@ -1,0 +1,28 @@
+body {
+  background-color: #E6DADA;
+  margin-left: 20px;
+}
+
+
+h2 {
+  color: #601834;
+  font-family: optima;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+h3 {
+  color: #905469;
+  font-family: optima;
+  font-size: 150%;
+}
+
+a:link {
+  color: #905469;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #918A8A;
+  text-decoration: underline;
+}
